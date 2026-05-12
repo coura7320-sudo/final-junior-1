@@ -1,4 +1,4 @@
-const Game = require("../models/Game");
+const Game = require("../models/game");
 
 // GET ALL
 exports.getGames = async (req, res) => {
