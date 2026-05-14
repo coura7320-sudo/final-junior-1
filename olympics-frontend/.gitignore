@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Logs
+﻿# Logs
 logs
 *.log
 npm-debug.log*
@@ -8,8 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+node_modules/
+# Local dependencies
+.env
+
 dist
+
 dist-ssr
 *.local
 
@@ -23,9 +26,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-
-=======
->>>>>>> 0185455e0b4f954a7c92c7efbb952e54dc631731
-node_modules/
-.env

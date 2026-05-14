@@ -1,5 +1,4 @@
-{
-<<<<<<< HEAD
+﻿{
   "name": "olympics-frontend",
   "version": "1.0.0",
   "private": true,
@@ -17,25 +16,3 @@
     "vite": "^4.4.5"
   }
 }
-=======
-  "name": "final-junior-1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "backend/server.js",
-  "scripts": {
-    "start": "node backend/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^6.0.0",
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.6.2"
-  }
-}
->>>>>>> 0185455e0b4f954a7c92c7efbb952e54dc631731
