@@ -69,9 +69,7 @@ export default function HomePage({ setPage }) {
             <button className="btn btn-primary btn-lg" onClick={() => setPage("games")}>
               Voir les épreuves
             </button>
-            <button className="btn btn-outline btn-lg" onClick={() => setPage("register")}>
-              S'inscrire
-            </button>
+          
           </div>
         </div>
         <div className="hero-rings">
