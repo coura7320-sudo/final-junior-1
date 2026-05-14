@@ -16,7 +16,7 @@
   --shadow: 0 2px 12px rgba(0, 87, 168, 0.10);
   --shadow-hover: 0 6px 24px rgba(0, 87, 168, 0.18);
 }
- 
+
 /* ─── Reset & Base ───────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -27,7 +27,7 @@ body {
 }
 img { max-width: 100%; display: block; }
 button { cursor: pointer; font-family: inherit; }
- 
+
 /* ─── Navbar ─────────────────────────────────────── */
 .navbar {
   background: var(--white);
@@ -75,7 +75,7 @@ button { cursor: pointer; font-family: inherit; }
 .user-info { display: flex; align-items: center; gap: 12px; }
 .username { font-weight: 500; color: var(--text); font-size: 0.9rem; }
 .auth-buttons { display: flex; gap: 8px; }
- 
+
 /* ─── Buttons ────────────────────────────────────── */
 .btn {
   padding: 8px 20px;
@@ -118,7 +118,7 @@ button { cursor: pointer; font-family: inherit; }
   text-decoration: underline;
   padding: 0;
 }
- 
+
 /* ─── Hero ───────────────────────────────────────── */
 .home-page { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem 4rem; }
 .hero {
@@ -156,7 +156,7 @@ button { cursor: pointer; font-family: inherit; }
   line-height: 1.7;
 }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
- 
+
 /* Olympic rings animation */
 .hero-rings {
   display: flex;
@@ -184,7 +184,7 @@ button { cursor: pointer; font-family: inherit; }
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
 }
- 
+
 /* ─── Stats ──────────────────────────────────────── */
 .stats-section { margin-bottom: 4rem; }
 .stats-grid {
@@ -202,7 +202,7 @@ button { cursor: pointer; font-family: inherit; }
 }
 .stat-number { display: block; font-size: 2rem; font-weight: 800; color: var(--primary); }
 .stat-label { display: block; font-size: 0.9rem; color: var(--text-muted); margin-top: 4px; }
- 
+
 /* ─── Features ───────────────────────────────────── */
 .features-section { }
 .features-section h2 {
@@ -226,13 +226,13 @@ button { cursor: pointer; font-family: inherit; }
 .feature-icon { font-size: 2rem; display: block; margin-bottom: 0.8rem; }
 .feature-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
 .feature-card p { color: var(--text-muted); font-size: 0.95rem; }
- 
+
 /* ─── Games Page ─────────────────────────────────── */
 .games-page { max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
 .page-header { margin-bottom: 2rem; }
 .page-header h1 { font-size: 2.2rem; font-weight: 800; color: var(--text); }
 .page-header p { color: var(--text-muted); margin-top: 4px; }
- 
+
 .demo-banner {
   background: #fef3c7;
   border: 1px solid #fcd34d;
@@ -242,7 +242,7 @@ button { cursor: pointer; font-family: inherit; }
   margin-bottom: 1.5rem;
   font-size: 0.9rem;
 }
- 
+
 /* Filtres */
 .filters {
   display: flex;
@@ -263,14 +263,14 @@ button { cursor: pointer; font-family: inherit; }
 .filter-btn:hover { border-color: var(--primary); color: var(--primary); }
 .filter-btn.active { background: var(--primary); border-color: var(--primary); color: white; }
 .results-count { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem; }
- 
+
 /* Grille de cartes */
 .games-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 1.5rem;
 }
- 
+
 /* ─── Game Card ──────────────────────────────────── */
 .game-card {
   background: var(--white);
@@ -296,7 +296,7 @@ button { cursor: pointer; font-family: inherit; }
   transition: transform 0.3s;
 }
 .game-card:hover .card-image img { transform: scale(1.04); }
- 
+
 /* Badges statut */
 .badge {
   position: absolute;
@@ -313,7 +313,7 @@ button { cursor: pointer; font-family: inherit; }
 .badge-finished { background: rgba(42,157,143,0.92); color: white; }
 /* Pour le tableau admin */
 .badge-upcoming:not([style*="position"]) { position: static; }
- 
+
 .card-body { padding: 1.2rem; }
 .card-title { font-size: 1.05rem; font-weight: 700; color: var(--text); margin-bottom: 0.5rem; }
 .card-meta {
@@ -334,7 +334,7 @@ button { cursor: pointer; font-family: inherit; }
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
- 
+
 /* Score box */
 .score-box {
   display: flex;
@@ -356,7 +356,7 @@ button { cursor: pointer; font-family: inherit; }
 .team-name { font-size: 0.82rem; font-weight: 600; color: var(--text-muted); }
 .team-score { font-size: 1.4rem; font-weight: 800; color: var(--text); }
 .vs { font-size: 0.75rem; font-weight: 700; color: var(--text-muted); padding: 0 8px; }
- 
+
 /* ─── Auth pages ─────────────────────────────────── */
 .auth-page {
   min-height: calc(100vh - 64px);
@@ -403,7 +403,7 @@ button { cursor: pointer; font-family: inherit; }
 .success-state { text-align: center; padding: 2rem; }
 .success-state .big-icon { font-size: 3rem; display: block; margin-bottom: 1rem; }
 .success-state h2 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; }
- 
+
 /* ─── Admin Page ─────────────────────────────────── */
 .admin-page { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
 .admin-form-card {
@@ -448,7 +448,7 @@ button { cursor: pointer; font-family: inherit; }
 .admin-table tr:last-child td { border-bottom: none; }
 .admin-table tr:hover td { background: #f8faff; }
 .table-actions { display: flex; gap: 6px; }
- 
+
 /* Badges dans le tableau (non-absolute) */
 .badge-upcoming, .badge-ongoing, .badge-finished {
   display: inline-block;
@@ -457,7 +457,7 @@ button { cursor: pointer; font-family: inherit; }
   font-size: 0.78rem;
   font-weight: 700;
 }
- 
+
 /* ─── Loading & Error & Empty ────────────────────── */
 .loading-container {
   display: flex;
@@ -477,7 +477,7 @@ button { cursor: pointer; font-family: inherit; }
   animation: spin 0.8s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
- 
+
 .error-msg {
   background: #fee2e2;
   color: #b91c1c;
@@ -495,14 +495,14 @@ button { cursor: pointer; font-family: inherit; }
 }
 .message-banner.success { background: #dcfce7; color: #166534; }
 .message-banner.error { background: #fee2e2; color: #b91c1c; }
- 
+
 .empty-state {
   text-align: center;
   padding: 4rem 2rem;
   color: var(--text-muted);
 }
 .empty-state span { font-size: 3rem; display: block; margin-bottom: 1rem; }
- 
+
 /* ─── Responsive ─────────────────────────────────── */
 @media (max-width: 768px) {
   .hero { flex-direction: column; padding: 3rem 0 2rem; text-align: center; }
@@ -517,181 +517,4 @@ button { cursor: pointer; font-family: inherit; }
   .navbar { padding: 0 1rem; }
   .navbar-links { display: none; }
 }
- 
-/* ─── Boutons stats cliquables ───────────────────── */
-.quick-stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  margin-bottom: 0;
-}
-.stat-card.clickable {
-  background: var(--white);
-  border: 2px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.5rem;
-  text-align: center;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-  transition: all 0.2s;
-  font-family: inherit;
-  width: 100%;
-}
-.stat-card.clickable:hover {
-  border-color: var(--primary);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-hover);
-}
-.stat-card.clickable.active {
-  border-color: var(--primary);
-  background: #eef4ff;
-}
-.stat-arrow {
-  font-size: 0.7rem;
-  color: var(--text-muted);
-  margin-top: 4px;
-}
- 
-/* ─── Panneaux dépliants ─────────────────────────── */
-.panel {
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 2rem;
-  margin: 1.2rem 0;
-  box-shadow: var(--shadow);
-  animation: slideDown 0.25s ease;
-}
-@keyframes slideDown {
-  from { opacity: 0; transform: translateY(-8px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-.panel-title {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--text);
-  margin-bottom: 1.5rem;
-}
- 
-/* Sports */
-.sports-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  gap: 0.8rem;
-}
-.sport-item {
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1rem 0.8rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  transition: transform 0.15s;
-}
-.sport-item:hover { transform: translateY(-2px); }
-.sport-emoji { font-size: 1.8rem; }
-.sport-nom { font-size: 0.88rem; font-weight: 700; color: var(--text); }
-.sport-sub { font-size: 0.75rem; color: var(--text-muted); }
- 
-/* Épreuves */
-.epreuves-list { display: flex; flex-direction: column; gap: 0.6rem; }
-.epreuve-row {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.8rem 1rem;
-  background: var(--bg);
-  border-radius: 8px;
-  flex-wrap: wrap;
-}
-.epreuve-sport { font-size: 0.85rem; color: var(--text-muted); min-width: 110px; }
-.epreuve-nom   { font-size: 0.92rem; font-weight: 700; color: var(--text); flex: 1; }
-.epreuve-date  { font-size: 0.82rem; color: var(--text-muted); }
- 
-/* Pays */
-.pays-list { display: flex; flex-direction: column; gap: 0.4rem; }
-.pays-header {
-  display: grid;
-  grid-template-columns: 30px 30px 1fr 40px 40px 40px 50px;
-  gap: 0.5rem;
-  padding: 0.5rem 0.8rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.pays-row {
-  display: grid;
-  grid-template-columns: 30px 30px 1fr 40px 40px 40px 50px;
-  gap: 0.5rem;
-  align-items: center;
-  padding: 0.7rem 0.8rem;
-  background: var(--bg);
-  border-radius: 8px;
-  font-size: 0.9rem;
-}
-.pays-row:hover { background: #eef4ff; }
-.pays-rang   { color: var(--text-muted); font-size: 0.8rem; }
-.pays-drapeau { font-size: 1.2rem; }
-.pays-nom    { font-weight: 600; color: var(--text); }
-.medaille    { text-align: center; font-weight: 700; }
-.medaille.or     { color: #b8860b; }
-.medaille.argent { color: #808080; }
-.medaille.bronze { color: #a0522d; }
-.medaille.total  { color: var(--primary); }
- 
-/* Athlètes */
-.athletes-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 0.8rem;
-}
-.athlete-card {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  background: var(--bg);
-  border-radius: 10px;
-  padding: 1rem;
-}
-.athlete-avatar {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  background: var(--primary);
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 0.9rem;
-  flex-shrink: 0;
-}
-.athlete-info {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  flex: 1;
-}
-.athlete-nom    { font-weight: 700; font-size: 0.95rem; color: var(--text); }
-.athlete-pays   { font-size: 0.8rem; color: var(--text-muted); }
-.athlete-sport  { font-size: 0.8rem; color: var(--primary); }
-.athlete-medaille { font-size: 0.82rem; font-weight: 700; color: #b8860b; white-space: nowrap; }
- 
-/* ─── Responsive panneaux ────────────────────────── */
-@media (max-width: 768px) {
-  .quick-stats { grid-template-columns: repeat(2, 1fr); }
-  .pays-header,
-  .pays-row {
-    grid-template-columns: 25px 25px 1fr 35px 35px 35px 40px;
-    font-size: 0.82rem;
-  }
-  .athletes-grid { grid-template-columns: 1fr; }
-  .epreuve-row { gap: 0.5rem; }
-}
+
