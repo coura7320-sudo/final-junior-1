@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "olympics-frontend",
   "version": "1.0.0",
   "private": true,
@@ -16,3 +16,4 @@
     "vite": "^4.4.5"
   }
 }
+
