@@ -208,12 +208,12 @@ export default function AdminPage() {
         </form>
       </div>
 
-      {/* Liste des épreuves */}
+      {/*Liste des épreuves*/}
       <div className="admin-list">
         <h2>📋 Toutes les épreuves ({games.length})</h2>
         {games.length === 0 ? (
           <div className="empty-state">
-            <span>🏅</span>
+          <span>🏅</span>
             <p>Aucune épreuve pour l'instant</p>
           </div>
         ) : (

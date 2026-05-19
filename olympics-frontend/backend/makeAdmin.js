@@ -4,7 +4,7 @@ const User = require("./models/User");
 
 dotenv.config();
 
-// Mettez l'email de l'utilisateur que vous voulez rendre admin ici :
+// je met l'email de l'utilisateur que je veux rendre admin ici :
 const emailToMakeAdmin = "coura7320@gmail.com"; 
 
 async function makeAdmin() {
